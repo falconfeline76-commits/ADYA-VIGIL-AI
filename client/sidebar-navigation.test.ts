@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 
 const clientSource = readFileSync(resolve(process.cwd(), "client/src/main.js"), "utf8");
+const styleSource = readFileSync(resolve(process.cwd(), "client/src/index.css"), "utf8");
 
 describe("sidebar navigation refinements", () => {
   it("uses a cyber-security label instead of the removed Security desk label", () => {
@@ -15,6 +16,11 @@ describe("sidebar navigation refinements", () => {
     expect(clientSource).toContain("THREAT MATRIX");
     expect(clientSource).toContain("LIVE // EDGE MONITOR");
     expect(clientSource).toContain("ENCRYPTED SIGNAL CHANNEL");
+  });
+
+  it("keeps the static falcon centered with explicit right-side box padding", () => {
+    expect(styleSource).toContain(".brand-mark-3d{box-sizing:border-box;width:62px;min-width:62px;height:58px;padding:0 8px 0 4px");
+    expect(styleSource).toContain(".brand-fire-falcon{box-sizing:border-box;width:100%;height:100%;display:grid;place-items:center;padding-right:3px}");
   });
 
   it("uses calendar and QR scanning SVG icons only for Dashboard and Scan center", () => {

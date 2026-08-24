@@ -106,5 +106,9 @@
 - [x] Validate only these visual changes and save a new checkpoint: e75282be.
 - [x] Save a checkpoint for the static-logo, smaller-falcon, hexagon-shield, and QR-New-scan refinement and record its version ID: e75282be.
 - [x] After checkpointing, mark the validation item complete without removing the checkpoint requirement.
-- [ ] Replace “Local model online”, “RULESET 0.9.4 · READY”, and “⌁ Your content stays in this workspace” with an attractive cyber-security telemetry design.
-- [ ] Validate that only the sidebar status/footer area changed and save a new checkpoint.
+- [x] Replace “Local model online”, “RULESET 0.9.4 · READY”, and “⌁ Your content stays in this workspace” with an attractive cyber-security telemetry design.
+- [x] Validate that only the sidebar status/footer area changed and save a new checkpoint: bc3e63bf.
+- [x] Balance the right padding around the falcon logo inside its sidebar box.
+- [ ] Validate the logo alignment at desktop/mobile sizes and save a new checkpoint.
+- [ ] Save a checkpoint for the falcon-logo box-padding/alignment refinement and record its version ID.
+- [ ] After checkpointing, mark the logo-alignment validation item complete without removing the original checkpoint requirement.
