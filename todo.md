@@ -38,3 +38,13 @@
 - [x] Save and deliver the updated Demo Lab checkpoint.
 - [x] Validate the new Demo Lab section on a mobile viewport after the recent changes and document the result.
 - [x] Directly inspect the Demo Lab at mobile width and confirm stacked cards, visible actions, and no horizontal overflow before checkpointing.
+- [x] Replace the expanded Demo Lab with a compact Demo trace arrow and four paste-ready sample choices.
+- [x] Make exactly two demo samples analyze as high risk and two as low risk through the existing heuristics.
+- [x] Place the sample picker below the URL/content field and wire selection into the active input.
+- [x] Remove explanatory copy from the demo sample choices while keeping the samples easy to identify.
+- [x] Validate the picker and all four outcomes on desktop and mobile layouts.
+- [x] Save and deliver the refined Demo trace checkpoint.
+- [x] Validate the refined Demo trace picker on a mobile viewport, including arrow control, four sample cards, input insertion, and overflow behavior.
+- [ ] Save a new checkpoint after the refined Demo trace picker changes and record its version ID.
+- [x] Directly inspect the refined Demo trace picker at mobile width and confirm the arrow control, four visible sample cards, and no horizontal overflow.
+- [x] On mobile width, activate one low-risk and one high-risk sample and confirm insertion into the active field with a usable Analyze action.

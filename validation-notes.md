@@ -35,3 +35,15 @@ Post-change mobile Demo Lab validation at 390×844 succeeded. The six URL, SMS, 
 Direct Demo Lab inspection confirmed six cards and six visible `Load and analyze` actions. The captured 390×844 mobile layout shows the cards stacked in one column with labels and actions intact; the live DOM inspection also reported no horizontal overflow at the available viewport.
 
 Reviewed the post-change 390×844 screenshot directly: the Demo Lab cards are stacked in one column, each card shows its type, lower-risk/suspicious label, description, and Load and analyze action, and the layout remains within the viewport without horizontal overflow.
+
+Refined Demo trace validation: enabling Demo trace opens the compact picker beneath the URL/content textarea, with the arrow changing between Show and Hide demo samples. The picker exposes exactly four paste-ready choices—two marked LOW RISK and two marked HIGH RISK—with no explanatory paragraphs on the choices. Selecting the high-risk URL inserted its content into the URL field and kept the live Analyze action available.
+
+Four-sample outcome validation in the live scanner: the high-risk URL returned 98/100 High risk with unencrypted destination, malicious URL pattern, credential/payment lure, and weak JavaScript findings. The low-risk URL returned 4/100 Low signal. The low-risk email returned 9/100 Low signal with only a sender-context verification note. The remaining high-risk email is designed to score high from urgency, sensitive-data request, action request, redirect marker, and sender context.
+
+Completed the fourth demo outcome: the high-risk email sample returned 89/100 High risk with urgency pressure, sensitive-data request, action request, redirect/attachment marker, and sender-context findings. The four live sample outcomes are now confirmed as 98 and 89 High risk, and 4 and 9 Low signal.
+
+Refined picker mobile validation at 390×844 with `?demo=1` succeeded. Demo trace starts enabled, the arrow control shows Hide demo samples, all four cards are visible in a single column with two low-risk and two high-risk labels, each Paste into field action remains visible, and the entire scan panel stays within the viewport without horizontal overflow.
+
+Direct picker interaction checks completed after the mobile capture: selecting the low-risk URL inserted `https://www.example.com/security-center`, selected URL mode, kept Analyze enabled, and reported no horizontal overflow. Selecting the high-risk email inserted the full simulated email content, selected Email mode, kept Analyze enabled, and reported no horizontal overflow. The 390×844 screenshot confirms the same picker is stacked and visible at mobile width.
+
+Final refined picker verification: the reviewed 390×844 screenshot with `?demo=1` shows Demo trace enabled, the Hide demo samples arrow, and four stacked sample cards with both low-risk and high-risk labels. Direct live-page checks confirmed the low-risk URL and high-risk email cards insert their content, select the correct input type, leave Analyze enabled, and do not introduce horizontal overflow.
