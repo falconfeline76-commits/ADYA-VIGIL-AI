@@ -21,6 +21,8 @@ describe("sidebar navigation refinements", () => {
   it("keeps the static falcon centered with explicit right-side box padding", () => {
     expect(styleSource).toContain(".brand-mark-3d{box-sizing:border-box;width:62px;min-width:62px;height:58px;padding:0 8px 0 4px");
     expect(styleSource).toContain(".brand-fire-falcon{box-sizing:border-box;width:100%;height:100%;display:grid;place-items:center;padding-right:3px}");
+    expect(styleSource).toContain(".brand-mark-3d{padding:0!important;place-items:center!important");
+    expect(styleSource).toContain(".brand-fire-falcon{padding:0!important;place-items:center!important");
   });
 
   it("uses calendar and QR scanning SVG icons only for Dashboard and Scan center", () => {

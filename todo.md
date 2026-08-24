@@ -109,6 +109,8 @@
 - [x] Replace “Local model online”, “RULESET 0.9.4 · READY”, and “⌁ Your content stays in this workspace” with an attractive cyber-security telemetry design.
 - [x] Validate that only the sidebar status/footer area changed and save a new checkpoint: bc3e63bf.
 - [x] Balance the right padding around the falcon logo inside its sidebar box.
-- [ ] Validate the logo alignment at desktop/mobile sizes and save a new checkpoint.
-- [ ] Save a checkpoint for the falcon-logo box-padding/alignment refinement and record its version ID.
-- [ ] After checkpointing, mark the logo-alignment validation item complete without removing the original checkpoint requirement.
+- [x] Validate the logo alignment at desktop/mobile sizes and save a new checkpoint: 644cd361.
+- [x] Save a checkpoint for the falcon-logo box-padding/alignment refinement and record its version ID: 644cd361.
+- [x] After checkpointing, mark the logo-alignment validation item complete without removing the original checkpoint requirement.
+- [ ] Center the falcon logo precisely inside its existing sidebar box.
+- [ ] Validate the centered logo at desktop/mobile sizes and save a new checkpoint.
