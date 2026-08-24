@@ -12,3 +12,22 @@
 - [x] Validate key pages at mobile/tablet breakpoints and fix any responsive issues found, then document the checks.
 - [x] Verify the latest stored QR file row has a non-NULL scanId after the linked upload-and-analyze flow.
 - [x] Run responsive validation at a tablet viewport for all core routes and document the results.
+- [x] Generate and integrate a falcon-inspired ADYA VIGIL AI mark.
+- [x] Refresh the full app theme with a more immersive cyber-security visual system.
+- [x] Add scanning-box animation and shield scanning motion on the dashboard.
+- [x] Add animated risk-score reveal and staged evidence analysis states.
+- [x] Add demo mode switch that visibly traces model tracking stages.
+- [x] Expand explanations for malicious URLs, weak JavaScript patterns, and other findings.
+- [x] Add clear next-step guidance after each result.
+- [x] Validate the enhanced animations, demo switch, responsive UI, and full-stack persistence.
+- [x] Save and deliver the enhanced project checkpoint.
+- [x] Convert the frontend from React components to semantic HTML, CSS, and vanilla JavaScript modules.
+- [x] Preserve the falcon branding, cyber-security theme, scan animations, score reveal, demo mode, and evidence explanations in the vanilla frontend.
+- [x] Prepare a PostgreSQL-compatible server/database adapter and schema while keeping the connection configurable.
+- [x] Preserve S3-backed file storage and scan-to-file linkage with the vanilla client.
+- [x] Add the PostgreSQL connection-string requirement to project documentation and environment configuration.
+- [x] Validate the converted frontend, backend contracts, responsive layouts, animations, and tests.
+- [x] Save and deliver the converted project checkpoint.
+- [x] Add POSTGRES_DATABASE_URL and POSTGRES_SSL to the server environment layer.
+- [x] Validate PostgreSQL configuration handling without requiring a live external connection string.
+- [ ] Request and validate the PostgreSQL connection secret when the user supplies it.
