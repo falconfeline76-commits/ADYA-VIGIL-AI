@@ -84,3 +84,7 @@
 - [x] Validate the score-floor behavior, update regression tests, and save a new checkpoint: e4e73c6a.
 - [x] Fix the Scan Center REPORT action so the click reliably navigates to the official cybercrime reporting portal.
 - [x] Validate the REPORT click path, responsive behavior, regression tests, and save a new checkpoint: b44aadee.
+- [x] Replace the sidebar “Security desk / 0.9.4” label with an attractive cyber-security label only.
+- [x] Replace only the Dashboard and Scan center sidebar symbols with attractive calendar and QR-scanning icons.
+- [x] Validate that no unrelated UI changes were introduced.
+- [ ] Save and deliver the isolated sidebar refinement checkpoint.

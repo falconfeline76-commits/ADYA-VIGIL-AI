@@ -75,3 +75,7 @@ Score-floor update validation: the heuristic engine now calculates the weighted 
 REPORT redirect fix validation: the Scan Center now renders REPORT as a button with an explicit click handler that assigns the portal URL to the top-level window, with a same-window fallback. A live click from `/scan` successfully navigated to `https://cybercrime.gov.in/Webform/Accept.aspx`, which loaded the National Cyber Crime Reporting Portal.
 
 Redirect fix follow-up: the live REPORT button was executed from `/scan` and successfully navigated to the official cybercrime portal. A mobile capture after returning to the app confirms the REPORT button remains part of the responsive Scan Center action group; the initial mobile capture failed while the browser was still on the external portal, then succeeded after reopening `/scan`.
+
+Sidebar refinement desktop review: Dashboard shows `CYBER DEFENSE NETWORK` with `LIVE SIGNAL MONITOR`, plus a luminous calendar icon. Scan center shows the same new sidebar label and a QR-scanning corner icon. The existing masthead, page headers, scanner content, report control, and other navigation items remain unchanged in the reviewed captures.
+
+Sidebar refinement mobile review: at 390px, the new calendar Dashboard icon and QR Scan center icon are compact, legible, and aligned with the existing navigation. The cyber-security label is presented in the sidebar without horizontal overflow, and the reviewed page content remains unchanged.
