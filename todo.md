@@ -143,4 +143,7 @@
 - [x] Revalidate the ADYA wordmark spark at desktop/mobile sizes and save a new checkpoint: 504597fe.
 - [x] Add a project-specific cyber-security signal visual beside the “Your signal desk.” heading.
 - [x] Give the visual attractive cybernetic styling, balanced padding, and a restrained animation with reduced-motion support.
-- [ ] Validate the heading visual at desktop and mobile sizes, then save a new checkpoint.
+- [x] Validate the heading visual at desktop and mobile sizes, then save a new checkpoint: d324dba1.
+- [x] Replace only the current visual beside “Your signal desk.” with an innovative animated cyber-security design.
+- [x] Keep the replacement contained in its allocated panel with balanced padding, responsive sizing, and no overlap with the heading, New scan action, or dashboard card.
+- [ ] Preserve all other content and behavior, validate desktop/mobile rendering, and save a new checkpoint.
