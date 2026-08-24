@@ -49,6 +49,8 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain(".brand-wordmark{box-sizing:border-box;padding:10px;}");
     expect(styleSource).toContain(".brand-name em{font-size:10px;letter-spacing:.3em;}");
     expect(styleSource).toContain("@media(max-width:700px){.brand-wordmark{padding:8px}.brand-name em{font-size:8px;letter-spacing:.23em}}");
+    expect(styleSource).toContain(".brand-wordmark{border:0;background:transparent;box-shadow:none;padding:10px}");
+    expect(styleSource).toContain(".brand-wordmark:before,.brand-wordmark:after{display:none;content:none}");
   });
 
   it("omits only the Dashboard security-posture marker", () => {

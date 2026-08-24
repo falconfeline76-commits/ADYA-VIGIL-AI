@@ -155,4 +155,7 @@
 - [x] Validate wordmark clarity and alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint: f54acb50.
 - [x] Set equal four-side padding around the ADYA VIGIL AI wordmark box.
 - [x] Increase the VIGIL AI wordmark line slightly while preserving clear spacing and responsive readability.
-- [ ] Validate the corrected box alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint.
+- [x] Validate the corrected box alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint: a869d1b2.
+- [x] Remove the visible border, background frame, and technical corner treatment around the ADYA VIGIL AI wordmark.
+- [x] Preserve the wordmark typography, equal internal spacing, gold spark, static falcon mark, and sidebar alignment without a visible box.
+- [ ] Validate the frameless wordmark at desktop/mobile sizes, preserve all other content, and save a new checkpoint.
