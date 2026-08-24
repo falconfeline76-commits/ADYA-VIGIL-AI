@@ -129,4 +129,9 @@
 - [x] Validate the reveal sequence at desktop/mobile sizes, add regression coverage, and save a new checkpoint: 51f5e92d.
 - [x] Retune the falcon signal interference so it happens exactly twice per flight cycle: once on forward approach and once on backward retreat.
 - [x] Preserve a clean visible interval between disruptions and keep the falcon’s clear glow, shield composition, and static sidebar logo unchanged.
-- [ ] Validate the two-phase timing, reduced-motion fallback, and responsive rendering, then save a new checkpoint.
+- [x] Validate the two-phase timing, reduced-motion fallback, and responsive rendering, then save a new checkpoint: 21e06ecd.
+- [x] Restrict signal interference to the falcon body and wings, with no noise, scanline, opacity, or filter animation applied to the shield layers.
+- [x] Organize falcon transition spacing and easing so forward/back motion resolves smoothly without abrupt jumps or shield flicker.
+- [ ] Validate falcon-only interference, shield stability, responsive spacing, reduced-motion behavior, and save a new checkpoint.
+- [x] Neutralize shield-layer opacity/filter/scanline animation effects so the shield remains stable while only the falcon body-and-wings layers interfere.
+- [x] Add regression assertions for falcon-only masks, stable shield selectors, and organized zero-padding transitions.

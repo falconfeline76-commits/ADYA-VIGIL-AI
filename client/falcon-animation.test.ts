@@ -45,5 +45,17 @@ describe("3D falcon defense treatment", () => {
     expect(styleSource).toContain("35%,61%{opacity:0");
     expect(styleSource).toContain("65%{opacity:.9");
     expect(styleSource).toContain("78%,100%{opacity:0");
+    expect(styleSource).toContain(".fire-falcon-flight{padding:0;gap:0;align-items:center;justify-items:center;overflow:visible}");
+    expect(styleSource).toContain(".fire-falcon-flight .falcon-signal-noise,.fire-falcon-flight .falcon-signal-scanline{position:absolute;inset:0");
+    expect(styleSource).toContain("mask-image:url(\"/manus-storage/adya-cybernetic-falcon-cutout_1a566b1c.png\")");
+    expect(styleSource).toContain("@keyframes falconStaticBodyBurst");
+    expect(styleSource).toContain("@keyframes falconSignalScanBody");
+    expect(styleSource).toContain(".fire-falcon-flight .falcon-signal-scanline::after");
+    expect(styleSource).toContain(".fire-falcon-flight .falcon-signal-noise,.fire-falcon-flight .falcon-signal-scanline{animation:none!important;opacity:0!important}");
+    expect(styleSource).toContain(".hex-shield-field .hex-cell{animation:none!important;opacity:.58;transform:none");
+    expect(styleSource).toContain(".hex-shield-frame{animation:none!important;opacity:.88");
+    expect(styleSource).toContain(".shield-core{animation:none!important;opacity:1}");
+    expect(styleSource).toContain(".shield-viz .orbit{animation:none!important;opacity:1}");
+    expect(styleSource).toContain(".shield-viz .viz-scan-beam{animation:none!important;top:50%;transform:translateY(-50%);opacity:1}");
   });
 });
