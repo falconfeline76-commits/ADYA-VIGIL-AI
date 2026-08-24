@@ -46,8 +46,9 @@ describe("sidebar navigation refinements", () => {
   it("omits only the Dashboard security-posture marker", () => {
     expect(clientSource).toContain('showMarker = true');
     expect(clientSource).toContain('class="signal-line"></span>\' : ""');
-    expect(clientSource).toContain('DASHBOARD / SECURITY POSTURE", "Your signal desk."');
-    expect(clientSource).toContain('class="button-icon">${QR_SCAN_ICON}</span> New scan <span>↗</span></a>`, false)');
+    expect(clientSource).toContain('DASHBOARD / SECURITY POSTURE</div><h1>Your signal desk.</h1>');
+    expect(clientSource).toContain('function dashboardHeader(action)');
+    expect(clientSource).toContain('dashboardHeader(`<a href="/scan" class="button primary"><span class="button-icon">${QR_SCAN_ICON}</span> New scan <span>↗</span></a>`');
   });
 
   it("uses calendar and QR scanning SVG icons only for Dashboard and Scan center", () => {

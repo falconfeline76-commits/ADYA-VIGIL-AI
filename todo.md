@@ -137,7 +137,10 @@
 - [x] Add regression assertions for falcon-only masks, stable shield selectors, and organized zero-padding transitions.
 - [x] Move the upper spark accent to the left of the ADYA wordmark so it no longer sits above the text.
 - [x] Increase the spark accent scale and glow while preserving the static falcon logo and existing sidebar spacing.
-- [ ] Validate spark placement and responsive logo layout, then save a new checkpoint.
+- [x] Validate spark placement and responsive logo layout, then save a new checkpoint: 504597fe.
 - [x] Add or reposition the spark associated with the ADYA sidebar wordmark so it is visibly to the left of ADYA, not above the wordmark.
 - [x] Verify the larger ADYA-side spark does not animate the falcon logo or disturb its existing centered spacing.
-- [ ] Revalidate the ADYA wordmark spark at desktop/mobile sizes and save a new checkpoint.
+- [x] Revalidate the ADYA wordmark spark at desktop/mobile sizes and save a new checkpoint: 504597fe.
+- [x] Add a project-specific cyber-security signal visual beside the “Your signal desk.” heading.
+- [x] Give the visual attractive cybernetic styling, balanced padding, and a restrained animation with reduced-motion support.
+- [ ] Validate the heading visual at desktop and mobile sizes, then save a new checkpoint.
