@@ -77,4 +77,6 @@
 - [x] Validate the branding treatment at desktop and mobile widths.
 - [x] Save and deliver the updated dashboard branding checkpoint.
 - [x] Directly inspect the dashboard after the masthead change at desktop and mobile widths for title, gold sparks, wordmark, overlap, and overflow.
-- [ ] Save a new checkpoint after the dashboard branding changes and record its version ID in todo.md.
+- [x] Save a new checkpoint after the dashboard branding changes and record its version ID in todo.md: b05994d3.
+- [x] Add a REPORT button beside Analyze Signal in Scan Center that opens the official cybercrime reporting page.
+- [ ] Validate the REPORT action, responsive button layout, tests, and save a new checkpoint.

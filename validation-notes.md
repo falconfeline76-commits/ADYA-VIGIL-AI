@@ -65,3 +65,7 @@ Direct mobile preview review: `/how-it-works` stacks the hero and model content 
 Dashboard branding validation: desktop and 390px mobile captures show the large `THE FALCON CODERS` masthead centered above the first-page dashboard header, with luminous golden spark accents and a subtle gold rule. The enlarged `VIGIL AI` wordmark remains readable in the sidebar, while the dashboard shield continues to display the bright falcon mark clearly.
 
 Explicit mobile dashboard review: at 390px, `THE FALCON CODERS` is centered and readable with gold spark accents and a gold rule; the enlarged `VIGIL AI` sidebar wordmark remains clear; the shield card begins below the header with no overlap or horizontal overflow.
+
+REPORT action validation: the live `/scan` page renders `Analyze signal` and `REPORT` together in the action row, with the REPORT anchor pointing exactly to `https://cybercrime.gov.in/Webform/Accept.aspx`. The destination opened successfully as the Government of India's National Cyber Crime Reporting Portal and displayed its complaint-filing guidance.
+
+REPORT action responsive validation: desktop `/scan` shows the report action integrated into the Scan Center action row styling, while the 390px mobile layout keeps the input panel within the viewport and preserves the responsive action-group treatment without horizontal overflow. Live DOM inspection confirms the REPORT anchor uses the official cybercrime portal URL.
