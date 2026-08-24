@@ -97,6 +97,12 @@
 - [x] Validate the redesigned logo and Dashboard at desktop/mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint: fd96e366.
 - [x] Replace the cartoon-style falcon with a realistic falcon asset inside the cyber-green shield.
 - [x] Preserve the fire accents and wing-flight animation around the realistic falcon without changing unrelated app content.
-- [ ] Validate the realistic logo and Dashboard composition at desktop/mobile sizes, update tests, and save a new checkpoint.
-- [ ] Save a new checkpoint for the realistic-falcon logo and Dashboard update and record its version ID.
-- [ ] After checkpointing, mark the realistic logo/Dashboard validation item complete without weakening its acceptance criteria.
+- [x] Validate the realistic logo and Dashboard composition at desktop/mobile sizes, update tests, and save a new checkpoint: 44b612b2.
+- [x] Save a new checkpoint for the realistic-falcon logo and Dashboard update and record its version ID: 44b612b2.
+- [x] After checkpointing, mark the realistic logo/Dashboard validation item complete without weakening its acceptance criteria.
+- [x] Keep the sidebar ADYA VIGIL AI logo static and correct its right-side padding/spacing.
+- [x] Make the Dashboard falcon smaller and redesign the cyber-green shield with an attractive hexagon pattern.
+- [x] Restyle the falcon as a cyber falcon and replace the New scan thunder mark with a QR-scanning icon.
+- [ ] Validate only these visual changes and save a new checkpoint.
+- [ ] Save a checkpoint for the static-logo, smaller-falcon, hexagon-shield, and QR-New-scan refinement and record its version ID.
+- [ ] After checkpointing, mark the validation item complete without removing the checkpoint requirement.
