@@ -87,4 +87,7 @@
 - [x] Replace the sidebar “Security desk / 0.9.4” label with an attractive cyber-security label only.
 - [x] Replace only the Dashboard and Scan center sidebar symbols with attractive calendar and QR-scanning icons.
 - [x] Validate that no unrelated UI changes were introduced.
-- [ ] Save and deliver the isolated sidebar refinement checkpoint.
+- [x] Save and deliver the isolated sidebar refinement checkpoint: 524ce2ed.
+- [ ] Add a cyber-green 3D-like shield treatment to the ADYA VIGIL AI logo and dashboard visualization.
+- [ ] Animate the falcon with forward/back depth motion and wing movement while preserving the existing brand mark.
+- [ ] Validate the animation at desktop and mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint.

@@ -79,3 +79,7 @@ Redirect fix follow-up: the live REPORT button was executed from `/scan` and suc
 Sidebar refinement desktop review: Dashboard shows `CYBER DEFENSE NETWORK` with `LIVE SIGNAL MONITOR`, plus a luminous calendar icon. Scan center shows the same new sidebar label and a QR-scanning corner icon. The existing masthead, page headers, scanner content, report control, and other navigation items remain unchanged in the reviewed captures.
 
 Sidebar refinement mobile review: at 390px, the new calendar Dashboard icon and QR Scan center icon are compact, legible, and aligned with the existing navigation. The cyber-security label is presented in the sidebar without horizontal overflow, and the reviewed page content remains unchanged.
+
+3D shield-and-falcon animation review: desktop and 390px Dashboard captures show a cyber-green shield with layered depth, luminous scan beam, forward/back falcon motion, and articulated wing-flap layers. The existing sidebar, dashboard masthead, posture content, and navigation remain visually intact; the mobile capture shows no obvious clipping or horizontal overflow.
+
+3D animation correction review: moved the falcon-flight layer outside the clipped shield polygon so the animated wings are visibly rendered in front of the shield. Desktop and 390px Dashboard captures now show the forward/back depth composition, green shield glow, and wing silhouettes without clipping or horizontal overflow.
