@@ -158,4 +158,7 @@
 - [x] Validate the corrected box alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint: a869d1b2.
 - [x] Remove the visible border, background frame, and technical corner treatment around the ADYA VIGIL AI wordmark.
 - [x] Preserve the wordmark typography, equal internal spacing, gold spark, static falcon mark, and sidebar alignment without a visible box.
-- [ ] Validate the frameless wordmark at desktop/mobile sizes, preserve all other content, and save a new checkpoint.
+- [x] Validate the frameless wordmark at desktop/mobile sizes, preserve all other content, and save a new checkpoint: 8ec7adad.
+- [x] Add a subtle neon glow and color-shift hover effect to the ADYA VIGIL AI wordmark.
+- [x] Provide an equivalent visible keyboard-focus treatment while preserving the static falcon mark and sidebar layout.
+- [ ] Validate hover/focus behavior, reduced-motion safety, responsive styling, and save a new checkpoint.

@@ -51,6 +51,11 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain("@media(max-width:700px){.brand-wordmark{padding:8px}.brand-name em{font-size:8px;letter-spacing:.23em}}");
     expect(styleSource).toContain(".brand-wordmark{border:0;background:transparent;box-shadow:none;padding:10px}");
     expect(styleSource).toContain(".brand-wordmark:before,.brand-wordmark:after{display:none;content:none}");
+    expect(clientSource).toContain('<span class="brand-wordmark" tabindex="0" role="img" aria-label="ADYA VIGIL AI">');
+    expect(styleSource).toContain(".brand-wordmark:hover,.brand-wordmark:focus-visible{filter:brightness(1.12);text-shadow:0 0 10px rgba(110,231,242,.32)");
+    expect(styleSource).toContain(".brand-wordmark:hover .brand-name b,.brand-wordmark:focus-visible .brand-name b{color:#ffffff");
+    expect(styleSource).toContain(".brand-wordmark:focus-visible{outline:2px solid rgba(110,231,242,.78);outline-offset:3px");
+    expect(styleSource).toContain("@media(prefers-reduced-motion:reduce){.brand-wordmark{transition:none!important}}");
   });
 
   it("omits only the Dashboard security-posture marker", () => {

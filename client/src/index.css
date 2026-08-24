@@ -231,3 +231,11 @@
 .brand-wordmark:before,.brand-wordmark:after{display:none;content:none}
 @media(max-width:900px){.brand-wordmark{padding:9px}}
 @media(max-width:700px){.brand-wordmark{padding:8px}}
+
+/* Subtle wordmark interaction: responsive to pointer hover and keyboard focus, never the falcon mark. */
+.brand-wordmark{cursor:pointer;transition:color 180ms cubic-bezier(.23,1,.32,1),text-shadow 180ms cubic-bezier(.23,1,.32,1),filter 180ms cubic-bezier(.23,1,.32,1)}
+.brand-wordmark:hover,.brand-wordmark:focus-visible{filter:brightness(1.12);text-shadow:0 0 10px rgba(110,231,242,.32),0 0 18px rgba(201,255,59,.18)}
+.brand-wordmark:hover .brand-name b,.brand-wordmark:focus-visible .brand-name b{color:#ffffff;text-shadow:0 0 7px rgba(244,251,246,.86),0 0 18px rgba(110,231,242,.62)}
+.brand-wordmark:hover .brand-name em,.brand-wordmark:focus-visible .brand-name em{color:#e3ff8b;text-shadow:0 0 11px rgba(201,255,59,.98)}
+.brand-wordmark:focus-visible{outline:2px solid rgba(110,231,242,.78);outline-offset:3px;border-radius:6px}
+@media(prefers-reduced-motion:reduce){.brand-wordmark{transition:none!important}}
