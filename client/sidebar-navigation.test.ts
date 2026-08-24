@@ -25,6 +25,24 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain(".brand-fire-falcon{padding:0!important;place-items:center!important");
   });
 
+  it("moves the primary spark left and increases the gold spark treatment", () => {
+    expect(styleSource).toContain(".gold-spark{font-size:29px;font-weight:700");
+    expect(styleSource).toContain(".spark-one{top:2px;left:3%;transform:translateX(-50%)}");
+    expect(styleSource).toContain(".spark-two{top:22px;right:10%;font-size:21px}");
+    expect(styleSource).toContain(".spark-three{bottom:4px;left:7%;font-size:18px}");
+    expect(styleSource).toContain("@media(max-width:700px){.gold-spark{font-size:24px}");
+  });
+
+  it("places a larger static spark to the left of the ADYA wordmark", () => {
+    expect(clientSource).toContain('<span class="brand-spark" aria-hidden="true">✦</span>');
+    expect(clientSource).toContain('<span class="brand-name"><b>ADYA</b><em>VIGIL AI</em></span>');
+    expect(styleSource).toContain(".brand-wordmark{display:flex!important;flex-direction:row!important;align-items:center;gap:7px");
+    expect(styleSource).toContain(".brand-spark{display:grid;place-items:center;width:24px;height:32px");
+    expect(styleSource).toContain("font-size:27px;font-weight:700");
+    expect(styleSource).toContain("animation:none!important");
+    expect(styleSource).toContain("@media(max-width:700px){.brand-wordmark{gap:5px}.brand-spark{width:21px");
+  });
+
   it("omits only the Dashboard security-posture marker", () => {
     expect(clientSource).toContain('showMarker = true');
     expect(clientSource).toContain('class="signal-line"></span>\' : ""');
