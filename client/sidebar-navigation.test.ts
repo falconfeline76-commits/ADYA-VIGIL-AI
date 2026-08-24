@@ -41,6 +41,11 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain("font-size:27px;font-weight:700");
     expect(styleSource).toContain("animation:none!important");
     expect(styleSource).toContain("@media(max-width:700px){.brand-wordmark{gap:5px}.brand-spark{width:21px");
+    expect(styleSource).toContain(".brand-name b{display:block;color:#f4fbf6;font:800 clamp(20px,2.2vw,25px)/.92 'Space Grotesk',sans-serif");
+    expect(styleSource).toContain("letter-spacing:.135em;text-transform:uppercase;text-shadow:0 0 5px rgba(244,251,246,.5)");
+    expect(styleSource).toContain(".brand-name em{display:block;color:var(--lime);font:700 9px/1 'IBM Plex Mono',monospace");
+    expect(styleSource).toContain(".brand-wordmark:before{content:\"\";position:absolute;left:4px;right:4px;top:4px");
+    expect(styleSource).toContain(".brand-wordmark{position:relative;display:flex!important;flex-direction:row!important;align-items:center;gap:9px;min-width:0;padding:8px 10px 8px 5px");
   });
 
   it("omits only the Dashboard security-posture marker", () => {
