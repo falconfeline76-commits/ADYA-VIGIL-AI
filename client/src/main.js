@@ -44,7 +44,7 @@ function analyze(type, raw, label) {
     if (/script|javascript|eval\(|document\.cookie|onclick=/.test(lower)) add("Weak JavaScript pattern", "The content references browser-execution behavior that can be abused to redirect a user or expose session data.", 26, "high");
     if (!findings.length) add("Low-signal content", "No common pressure, payment, credential, or link indicators were found in this sample.", 5, "low");
   }
-  const score = Math.min(99, Math.max(3, findings.reduce((sum, item) => sum + item.weight, 0)));
+  const weightedScore = findings.reduce((sum, item) => sum + item.weight, 0); const score = weightedScore < 10 ? 0 : Math.min(99, weightedScore);
   const verdict = score >= 70 ? "High risk" : score >= 40 ? "Needs caution" : "Low signal";
   const summary = score >= 70 ? "Multiple indicators suggest you should treat this as a likely phishing attempt." : score >= 40 ? "The sample contains warning signals that merit independent verification." : "The local model found limited warning signals, but no heuristic scan can prove a message is safe.";
   const nextSteps = score >= 70 ? ["Do not click, reply, download, or scan again.", "Verify through a known-good website, app, or phone number.", "Report the message to your provider and delete it."] : score >= 40 ? ["Pause before taking the requested action.", "Check the sender and destination using a trusted channel.", "Do not share credentials, codes, or payment details."] : ["Confirm the domain or sender independently before proceeding.", "Keep software and browser protections enabled.", "If the context feels unexpected, treat it as suspicious."];

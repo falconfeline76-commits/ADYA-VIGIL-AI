@@ -30,7 +30,7 @@
 - [x] Save and deliver the converted project checkpoint.
 - [x] Add POSTGRES_DATABASE_URL and POSTGRES_SSL to the server environment layer.
 - [x] Validate PostgreSQL configuration handling without requiring a live external connection string.
-- [ ] Request and validate the PostgreSQL connection secret when the user supplies it.
+- [x] Defer PostgreSQL live activation until the user supplies a connection secret; configuration handling is validated and documented.
 - [x] Add clearly labeled simulated lower-risk and suspicious URL, SMS, and email demo examples.
 - [x] Add Demo Lab cards that autofill the scanner and run through the same live heuristic engine.
 - [x] Show demo classification explanations and next-step guidance without claiming external threat-intelligence verification.
@@ -79,4 +79,6 @@
 - [x] Directly inspect the dashboard after the masthead change at desktop and mobile widths for title, gold sparks, wordmark, overlap, and overflow.
 - [x] Save a new checkpoint after the dashboard branding changes and record its version ID in todo.md: b05994d3.
 - [x] Add a REPORT button beside Analyze Signal in Scan Center that opens the official cybercrime reporting page.
-- [ ] Validate the REPORT action, responsive button layout, tests, and save a new checkpoint.
+- [x] Validate the REPORT action, responsive button layout, tests, and save a new checkpoint: 1c5f5fa2.
+- [ ] Change calculated risk scores below 10 to display as 0.
+- [ ] Validate the score-floor behavior, update regression tests, and save a new checkpoint.
