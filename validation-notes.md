@@ -93,3 +93,5 @@ Realistic falcon asset verification: after reloading the live Dashboard, the gen
 Mobile realistic-falcon review: at 390px the natural raptor remains recognizable with feather detail, fire-edged wings, and a bright green shield frame. The asset fits the sidebar mark and Dashboard visualization without horizontal overflow or layout collisions.
 
 Focused cyber-falcon refinement review: desktop and 390px Dashboard captures show the sidebar logo is static with corrected right spacing, the Dashboard falcon is smaller and centered within a neon hacking-green shield, the shield now has visible hexagon cells and a hexagonal frame, and the New scan button uses a QR-scanning icon. No unrelated content or layout overflow was observed.
+
+Sidebar telemetry replacement review: desktop and 390px Dashboard captures show the former Local model / RULESET / workspace-copy block replaced by a compact THREAT MATRIX panel with LIVE // EDGE MONITOR, animated signal bars, CHANNEL 07, SECURE, and an ENCRYPTED SIGNAL CHANNEL footer. The replacement remains readable and contained on mobile; other Dashboard content and navigation remain unchanged.

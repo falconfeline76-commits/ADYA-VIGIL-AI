@@ -9,6 +9,12 @@ describe("sidebar navigation refinements", () => {
     expect(clientSource).toContain("CYBER DEFENSE NETWORK");
     expect(clientSource).toContain("LIVE SIGNAL MONITOR");
     expect(clientSource).not.toContain("Security desk / 0.9.4");
+    expect(clientSource).not.toContain("Local model online");
+    expect(clientSource).not.toContain("RULESET 0.9.4 · READY");
+    expect(clientSource).not.toContain("Your content stays in this workspace");
+    expect(clientSource).toContain("THREAT MATRIX");
+    expect(clientSource).toContain("LIVE // EDGE MONITOR");
+    expect(clientSource).toContain("ENCRYPTED SIGNAL CHANNEL");
   });
 
   it("uses calendar and QR scanning SVG icons only for Dashboard and Scan center", () => {

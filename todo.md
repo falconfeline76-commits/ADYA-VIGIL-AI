@@ -103,6 +103,8 @@
 - [x] Keep the sidebar ADYA VIGIL AI logo static and correct its right-side padding/spacing.
 - [x] Make the Dashboard falcon smaller and redesign the cyber-green shield with an attractive hexagon pattern.
 - [x] Restyle the falcon as a cyber falcon and replace the New scan thunder mark with a QR-scanning icon.
-- [ ] Validate only these visual changes and save a new checkpoint.
-- [ ] Save a checkpoint for the static-logo, smaller-falcon, hexagon-shield, and QR-New-scan refinement and record its version ID.
-- [ ] After checkpointing, mark the validation item complete without removing the checkpoint requirement.
+- [x] Validate only these visual changes and save a new checkpoint: e75282be.
+- [x] Save a checkpoint for the static-logo, smaller-falcon, hexagon-shield, and QR-New-scan refinement and record its version ID: e75282be.
+- [x] After checkpointing, mark the validation item complete without removing the checkpoint requirement.
+- [ ] Replace “Local model online”, “RULESET 0.9.4 · READY”, and “⌁ Your content stays in this workspace” with an attractive cyber-security telemetry design.
+- [ ] Validate that only the sidebar status/footer area changed and save a new checkpoint.
