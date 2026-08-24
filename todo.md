@@ -58,16 +58,23 @@
 - [x] Remove the explanatory board from Scan center while preserving the scanner and Demo trace.
 - [x] Style the new How It Works page in the existing cyber-security visual system.
 - [x] Validate navigation, Scan center simplification, and responsive How It Works layout.
-- [ ] Save and deliver the How It Works page checkpoint.
-- [ ] Directly review the captured mobile How It Works and Scan center layouts for stacking, readability, and overflow.
-- [ ] Click How it works in the live navigation and return to Scan center to verify both paths.
+- [x] Save and deliver the How It Works page checkpoint: included in b3628ffc.
+- [x] Directly review the captured mobile How It Works and Scan center layouts for stacking, readability, and overflow.
+- [x] Click How it works in the live navigation and return to Scan center to verify both paths.
 - [x] Hide the ready-sample picker immediately after a sample is selected.
 - [x] Automatically start the existing animated scan after sample insertion.
 - [x] Deliver the risk score, explanations, and next steps without a second Analyze click.
 - [x] Validate the automatic sample flow for one low-risk and one high-risk example.
 - [x] Save and deliver the automatic demo-scan checkpoint.
-- [ ] Generate a brighter, sharper, more defined falcon logo mark for ADYA VIGIL AI.
-- [ ] Replace the current mark across the sidebar, dashboard shield animation, How It Works page, and About page.
-- [ ] Tune logo presentation for clarity at small and large sizes.
-- [ ] Validate logo visibility across core routes and responsive layouts.
-- [ ] Save and deliver the refreshed falcon logo checkpoint.
+- [x] Generate a brighter, sharper, more defined falcon logo mark for ADYA VIGIL AI.
+- [x] Replace the current mark across the sidebar, dashboard shield animation, How It Works page, and About page.
+- [x] Tune logo presentation for clarity at small and large sizes.
+- [x] Validate logo visibility across core routes and responsive layouts.
+- [x] Save and deliver the refreshed falcon logo checkpoint.
+- [x] Add a large THE FALCON CODERS masthead at the top center of the dashboard.
+- [x] Add a refined golden spark accent around the dashboard masthead.
+- [x] Increase the VIGIL AI wordmark size and visual emphasis.
+- [x] Validate the branding treatment at desktop and mobile widths.
+- [x] Save and deliver the updated dashboard branding checkpoint.
+- [x] Directly inspect the dashboard after the masthead change at desktop and mobile widths for title, gold sparks, wordmark, overlap, and overflow.
+- [ ] Save a new checkpoint after the dashboard branding changes and record its version ID in todo.md.

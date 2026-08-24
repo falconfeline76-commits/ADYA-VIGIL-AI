@@ -55,3 +55,13 @@ How It Works validation: the new `/how-it-works` route is present in navigation,
 Automatic sample flow validated with the low-risk URL: selecting the sample changed the picker control to `Show demo samples`, displayed `Scanning signal…` immediately, and delivered a `4/100 Low signal` result with reasons and next steps without a second Analyze click.
 
 Automatic sample flow validated with the high-risk URL: selecting the sample immediately collapsed the picker to `Show demo samples`, displayed `Scanning signal…`, and delivered a `98/100 High risk` result with unencrypted destination, malicious URL pattern, credential/payment lure, weak JavaScript pattern, and next-step guidance without a second Analyze click.
+
+Navigation validation: clicking `How it works` from Scan center opened `/how-it-works`; clicking `Scan center` returned to `/scan`. The refreshed bright falcon mark is visible in the sidebar and How It Works shield panel.
+
+Falcon mark validation: the regenerated bright mark is visible and well-defined in the sidebar and inside the animated shield on How It Works. Desktop and 390px mobile captures show strong cyan/lime contrast, a readable silhouette, and clear rendering at both compact and large display sizes.
+
+Direct mobile preview review: `/how-it-works` stacks the hero and model content cleanly at 390px; headings and buttons remain readable, and the bright falcon mark is clear in the sidebar and shield panel. `/scan` fits the input card, type tabs, textarea, and Analyze action within the viewport without horizontal overflow. The mobile capture shows the simplified Scan center with Demo trace off and no demo samples visible.
+
+Dashboard branding validation: desktop and 390px mobile captures show the large `THE FALCON CODERS` masthead centered above the first-page dashboard header, with luminous golden spark accents and a subtle gold rule. The enlarged `VIGIL AI` wordmark remains readable in the sidebar, while the dashboard shield continues to display the bright falcon mark clearly.
+
+Explicit mobile dashboard review: at 390px, `THE FALCON CODERS` is centered and readable with gold spark accents and a gold rule; the enlarged `VIGIL AI` sidebar wordmark remains clear; the shield card begins below the header with no overlap or horizontal overflow.
