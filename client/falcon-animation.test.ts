@@ -38,5 +38,12 @@ describe("3D falcon defense treatment", () => {
     expect(styleSource).toContain("animation:realFalconFlight 4.2s ease-in-out infinite, falconSignalReveal 1.2s cubic-bezier(.23,1,.32,1) both");
     expect(styleSource).toContain("drop-shadow(0 0 18px rgba(61,224,255,.8))");
     expect(styleSource).toContain(".falcon-signal-noise,.falcon-signal-scanline{animation:none!important;opacity:0!important}");
+    expect(styleSource).toContain(".falcon-signal-noise{animation:falconStaticBurst 4.2s steps(1,end) infinite}");
+    expect(styleSource).toContain(".falcon-signal-scanline{animation:falconSignalScanCycle 4.2s cubic-bezier(.77,0,.175,1) infinite}");
+    expect(styleSource).toContain("@keyframes falconStaticBurst");
+    expect(styleSource).toContain("@keyframes falconSignalScanCycle");
+    expect(styleSource).toContain("35%,61%{opacity:0");
+    expect(styleSource).toContain("65%{opacity:.9");
+    expect(styleSource).toContain("78%,100%{opacity:0");
   });
 });

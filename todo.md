@@ -126,4 +126,7 @@
 - [x] After checkpointing, mark the two cybernetic-falcon validation entries complete without weakening their acceptance criteria.
 - [x] Add a controlled signal-interference/static-noise effect to the cybernetic falcon frames before reveal.
 - [x] Make the revealed cybernetic falcon glow clearly with readable circuit detail while preserving the existing shield composition.
-- [ ] Validate the reveal sequence at desktop/mobile sizes, add regression coverage, and save a new checkpoint.
+- [x] Validate the reveal sequence at desktop/mobile sizes, add regression coverage, and save a new checkpoint: 51f5e92d.
+- [x] Retune the falcon signal interference so it happens exactly twice per flight cycle: once on forward approach and once on backward retreat.
+- [x] Preserve a clean visible interval between disruptions and keep the falcon’s clear glow, shield composition, and static sidebar logo unchanged.
+- [ ] Validate the two-phase timing, reduced-motion fallback, and responsive rendering, then save a new checkpoint.
