@@ -80,5 +80,7 @@
 - [x] Save a new checkpoint after the dashboard branding changes and record its version ID in todo.md: b05994d3.
 - [x] Add a REPORT button beside Analyze Signal in Scan Center that opens the official cybercrime reporting page.
 - [x] Validate the REPORT action, responsive button layout, tests, and save a new checkpoint: 1c5f5fa2.
-- [ ] Change calculated risk scores below 10 to display as 0.
-- [ ] Validate the score-floor behavior, update regression tests, and save a new checkpoint.
+- [x] Change calculated risk scores below 10 to display as 0.
+- [x] Validate the score-floor behavior, update regression tests, and save a new checkpoint: e4e73c6a.
+- [ ] Fix the Scan Center REPORT action so the click reliably navigates to the official cybercrime reporting portal.
+- [ ] Validate the REPORT click path, responsive behavior, regression tests, and save a new checkpoint.
