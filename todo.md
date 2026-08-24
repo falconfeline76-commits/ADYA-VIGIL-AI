@@ -82,5 +82,5 @@
 - [x] Validate the REPORT action, responsive button layout, tests, and save a new checkpoint: 1c5f5fa2.
 - [x] Change calculated risk scores below 10 to display as 0.
 - [x] Validate the score-floor behavior, update regression tests, and save a new checkpoint: e4e73c6a.
-- [ ] Fix the Scan Center REPORT action so the click reliably navigates to the official cybercrime reporting portal.
-- [ ] Validate the REPORT click path, responsive behavior, regression tests, and save a new checkpoint.
+- [x] Fix the Scan Center REPORT action so the click reliably navigates to the official cybercrime reporting portal.
+- [x] Validate the REPORT click path, responsive behavior, regression tests, and save a new checkpoint: b44aadee.
