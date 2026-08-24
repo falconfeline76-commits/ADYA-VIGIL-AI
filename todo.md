@@ -91,4 +91,7 @@
 - [x] Add a cyber-green 3D-like shield treatment to the ADYA VIGIL AI logo and dashboard visualization.
 - [x] Animate the falcon with forward/back depth motion and wing movement while preserving the existing brand mark.
 - [x] Validate the animation at desktop and mobile sizes and confirm unrelated behavior is unchanged.
-- [ ] Save and deliver the final visible-falcon animation checkpoint.
+- [x] Save and deliver the final visible-falcon animation checkpoint: 8513c6e1.
+- [ ] Replace the current ADYA VIGIL AI logo with a new fire-falcon-in-cyber-green-shield design.
+- [ ] Replace the Dashboard shield visualization with the new fire falcon, shield, fire, and wing-flight animation.
+- [ ] Validate the redesigned logo and Dashboard at desktop/mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint.
