@@ -88,6 +88,7 @@
 - [x] Replace only the Dashboard and Scan center sidebar symbols with attractive calendar and QR-scanning icons.
 - [x] Validate that no unrelated UI changes were introduced.
 - [x] Save and deliver the isolated sidebar refinement checkpoint: 524ce2ed.
-- [ ] Add a cyber-green 3D-like shield treatment to the ADYA VIGIL AI logo and dashboard visualization.
-- [ ] Animate the falcon with forward/back depth motion and wing movement while preserving the existing brand mark.
-- [ ] Validate the animation at desktop and mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint.
+- [x] Add a cyber-green 3D-like shield treatment to the ADYA VIGIL AI logo and dashboard visualization.
+- [x] Animate the falcon with forward/back depth motion and wing movement while preserving the existing brand mark.
+- [x] Validate the animation at desktop and mobile sizes and confirm unrelated behavior is unchanged.
+- [ ] Save and deliver the final visible-falcon animation checkpoint.

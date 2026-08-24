@@ -9,8 +9,9 @@ describe("3D falcon defense treatment", () => {
   it("renders layered shield, falcon, and wing elements in the dashboard visualization", () => {
     expect(clientSource).toContain('class="shield-core"><span class="shield-depth"></span>');
     expect(clientSource).toContain('class="falcon-flight"');
-    expect(clientSource).toContain('class="falcon-wing falcon-wing-left"');
-    expect(clientSource).toContain('class="falcon-wing falcon-wing-right"');
+    expect(clientSource).toContain('class="falcon-flight-silhouette"');
+    expect(clientSource).toContain('class="falcon-svg-wing-left"');
+    expect(clientSource).toContain('class="falcon-svg-wing-right"');
   });
 
   it("provides cyber-green depth motion and a reduced-motion fallback", () => {
