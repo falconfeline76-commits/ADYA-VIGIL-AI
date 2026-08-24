@@ -9,16 +9,14 @@ describe("3D falcon defense treatment", () => {
   it("renders layered shield, falcon, and wing elements in the dashboard visualization", () => {
     expect(clientSource).toContain('class="shield-core"><span class="shield-depth"></span>');
     expect(clientSource).toContain('class="fire-falcon-flight"');
-    expect(clientSource).toContain('class="fire-wing fire-wing-left"');
-    expect(clientSource).toContain('class="fire-wing fire-wing-right"');
-    expect(clientSource).toContain('class="shield-outline"');
+    expect(clientSource).toContain('class="real-fire-falcon-asset"');
+    expect(clientSource).toContain('alt="Realistic fire falcon inside a cyber shield"');
   });
 
   it("provides cyber-green depth motion and a reduced-motion fallback", () => {
     expect(styleSource).toContain(".shield-core{position:relative;transform-style:preserve-3d");
-    expect(styleSource).toContain("@keyframes fireFalconApproach");
-    expect(styleSource).toContain("@keyframes fireWingBeat");
-    expect(styleSource).toContain("@keyframes fireTrailPulse");
+    expect(styleSource).toContain("@keyframes realFalconFlight");
+    expect(styleSource).toContain("@keyframes realFireWake");
     expect(styleSource).toContain("@media(prefers-reduced-motion:reduce)");
   });
 });

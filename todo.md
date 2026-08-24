@@ -92,6 +92,11 @@
 - [x] Animate the falcon with forward/back depth motion and wing movement while preserving the existing brand mark.
 - [x] Validate the animation at desktop and mobile sizes and confirm unrelated behavior is unchanged.
 - [x] Save and deliver the final visible-falcon animation checkpoint: 8513c6e1.
-- [ ] Replace the current ADYA VIGIL AI logo with a new fire-falcon-in-cyber-green-shield design.
-- [ ] Replace the Dashboard shield visualization with the new fire falcon, shield, fire, and wing-flight animation.
-- [ ] Validate the redesigned logo and Dashboard at desktop/mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint.
+- [x] Replace the current ADYA VIGIL AI logo with a new fire-falcon-in-cyber-green-shield design.
+- [x] Replace the Dashboard shield visualization with the new fire falcon, shield, fire, and wing-flight animation.
+- [x] Validate the redesigned logo and Dashboard at desktop/mobile sizes, confirm unrelated behavior is unchanged, and save a new checkpoint: fd96e366.
+- [x] Replace the cartoon-style falcon with a realistic falcon asset inside the cyber-green shield.
+- [x] Preserve the fire accents and wing-flight animation around the realistic falcon without changing unrelated app content.
+- [ ] Validate the realistic logo and Dashboard composition at desktop/mobile sizes, update tests, and save a new checkpoint.
+- [ ] Save a new checkpoint for the realistic-falcon logo and Dashboard update and record its version ID.
+- [ ] After checkpointing, mark the realistic logo/Dashboard validation item complete without weakening its acceptance criteria.
