@@ -31,3 +31,10 @@
 - [x] Add POSTGRES_DATABASE_URL and POSTGRES_SSL to the server environment layer.
 - [x] Validate PostgreSQL configuration handling without requiring a live external connection string.
 - [ ] Request and validate the PostgreSQL connection secret when the user supplies it.
+- [x] Add clearly labeled simulated lower-risk and suspicious URL, SMS, and email demo examples.
+- [x] Add Demo Lab cards that autofill the scanner and run through the same live heuristic engine.
+- [x] Show demo classification explanations and next-step guidance without claiming external threat-intelligence verification.
+- [x] Validate the Demo Lab on desktop and mobile layouts.
+- [x] Save and deliver the updated Demo Lab checkpoint.
+- [x] Validate the new Demo Lab section on a mobile viewport after the recent changes and document the result.
+- [x] Directly inspect the Demo Lab at mobile width and confirm stacked cards, visible actions, and no horizontal overflow before checkpointing.

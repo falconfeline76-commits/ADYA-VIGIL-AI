@@ -27,3 +27,11 @@ Vanilla-theme mobile screenshots at 390×844 show the dashboard and scan center 
 Isolated route verification resolved the earlier parallel-capture ambiguity: `/history` rendered 4 persisted records with scores 98, 4, 42, and 58, and `/about` rendered the full model explanation plus the falcon panel. The blank mobile images for those routes were capture timing artifacts, not page runtime failures.
 
 The frontend conversion now passes `pnpm check`, `pnpm test`, and `pnpm build`. The new PostgreSQL adapter consumes `ENV.postgresDatabaseUrl` and `ENV.postgresSsl`, remains inactive without a supplied external connection string, and is covered by `server/postgres.test.ts`. The live preview remains operational on the managed database path. Full isolated route checks succeeded for dashboard, scan center, history, and About; the scan test produced a 98/100 High risk result with Malicious URL pattern and Weak JavaScript pattern explanations.
+
+Demo Lab validation: the scan page now displays six clearly labeled simulated examples across URL, SMS, and email. Clicking `Wallet verification lure` automatically selected URL mode, enabled Demo trace, autofilled the payload, and ran the same animated workflow. It returned 66/100 Needs caution with Unencrypted destination, Malicious URL pattern, and Credential or payment lure findings plus three next steps. The page clearly labels the inputs as simulated and does not claim external threat-intelligence verification.
+
+Post-change mobile Demo Lab validation at 390×844 succeeded. The six URL, SMS, and email cards stack into a readable single-column list, preserve their lower-risk/suspicious labels, keep the Load and analyze actions visible, and remain usable above the scanner form without horizontal overflow.
+
+Direct Demo Lab inspection confirmed six cards and six visible `Load and analyze` actions. The captured 390×844 mobile layout shows the cards stacked in one column with labels and actions intact; the live DOM inspection also reported no horizontal overflow at the available viewport.
+
+Reviewed the post-change 390×844 screenshot directly: the Demo Lab cards are stacked in one column, each card shows its type, lower-risk/suspicious label, description, and Load and analyze action, and the layout remains within the viewport without horizontal overflow.
