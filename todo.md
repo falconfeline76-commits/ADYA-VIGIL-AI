@@ -45,6 +45,29 @@
 - [x] Validate the picker and all four outcomes on desktop and mobile layouts.
 - [x] Save and deliver the refined Demo trace checkpoint.
 - [x] Validate the refined Demo trace picker on a mobile viewport, including arrow control, four sample cards, input insertion, and overflow behavior.
-- [ ] Save a new checkpoint after the refined Demo trace picker changes and record its version ID.
+- [x] Save a new checkpoint after the refined Demo trace picker changes and record its version ID: e5f75e52.
 - [x] Directly inspect the refined Demo trace picker at mobile width and confirm the arrow control, four visible sample cards, and no horizontal overflow.
 - [x] On mobile width, activate one low-risk and one high-risk sample and confirm insertion into the active field with a usable Analyze action.
+- [x] Show the demo sample arrow and sample list only when Demo trace is enabled.
+- [x] Hide all demo sample UI when Demo trace is disabled.
+- [x] Preserve arrow-open and sample-insertion behavior while Demo trace is enabled.
+- [x] Validate Demo trace on/off visibility and responsive presentation.
+- [x] Save and deliver the corrected Demo trace visibility checkpoint.
+- [x] Add a dedicated How It Works page route and navigation item.
+- [x] Move model explanation, evidence checks, and guidance content from Scan center to How It Works.
+- [x] Remove the explanatory board from Scan center while preserving the scanner and Demo trace.
+- [x] Style the new How It Works page in the existing cyber-security visual system.
+- [x] Validate navigation, Scan center simplification, and responsive How It Works layout.
+- [ ] Save and deliver the How It Works page checkpoint.
+- [ ] Directly review the captured mobile How It Works and Scan center layouts for stacking, readability, and overflow.
+- [ ] Click How it works in the live navigation and return to Scan center to verify both paths.
+- [x] Hide the ready-sample picker immediately after a sample is selected.
+- [x] Automatically start the existing animated scan after sample insertion.
+- [x] Deliver the risk score, explanations, and next steps without a second Analyze click.
+- [x] Validate the automatic sample flow for one low-risk and one high-risk example.
+- [x] Save and deliver the automatic demo-scan checkpoint.
+- [ ] Generate a brighter, sharper, more defined falcon logo mark for ADYA VIGIL AI.
+- [ ] Replace the current mark across the sidebar, dashboard shield animation, How It Works page, and About page.
+- [ ] Tune logo presentation for clarity at small and large sizes.
+- [ ] Validate logo visibility across core routes and responsive layouts.
+- [ ] Save and deliver the refreshed falcon logo checkpoint.

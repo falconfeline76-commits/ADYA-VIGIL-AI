@@ -47,3 +47,11 @@ Refined picker mobile validation at 390×844 with `?demo=1` succeeded. Demo trac
 Direct picker interaction checks completed after the mobile capture: selecting the low-risk URL inserted `https://www.example.com/security-center`, selected URL mode, kept Analyze enabled, and reported no horizontal overflow. Selecting the high-risk email inserted the full simulated email content, selected Email mode, kept Analyze enabled, and reported no horizontal overflow. The 390×844 screenshot confirms the same picker is stacked and visible at mobile width.
 
 Final refined picker verification: the reviewed 390×844 screenshot with `?demo=1` shows Demo trace enabled, the Hide demo samples arrow, and four stacked sample cards with both low-risk and high-risk labels. Direct live-page checks confirmed the low-risk URL and high-risk email cards insert their content, select the correct input type, leave Analyze enabled, and do not introduce horizontal overflow.
+
+Demo trace visibility fix validated: `/scan` with Demo trace off renders no sample arrow and no sample cards. Turning the switch on renders the arrow and four sample cards; turning it off removes both immediately. The existing scanner controls remain visible in both states.
+
+How It Works validation: the new `/how-it-works` route is present in navigation, renders the falcon shield sweep, four model stages, signal categories, scoring explanation, and next-step guidance. Scan center no longer includes the former explanatory board and now focuses on the scanner. The mobile screenshots show the How It Works cards stacking cleanly and the simplified Scan center fitting the viewport.
+
+Automatic sample flow validated with the low-risk URL: selecting the sample changed the picker control to `Show demo samples`, displayed `Scanning signal…` immediately, and delivered a `4/100 Low signal` result with reasons and next steps without a second Analyze click.
+
+Automatic sample flow validated with the high-risk URL: selecting the sample immediately collapsed the picker to `Show demo samples`, displayed `Scanning signal…`, and delivered a `98/100 High risk` result with unencrypted destination, malicious URL pattern, credential/payment lure, weak JavaScript pattern, and next-step guidance without a second Analyze click.
