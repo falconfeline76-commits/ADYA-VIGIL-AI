@@ -46,6 +46,9 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain(".brand-name em{display:block;color:var(--lime);font:700 9px/1 'IBM Plex Mono',monospace");
     expect(styleSource).toContain(".brand-wordmark:before{content:\"\";position:absolute;left:4px;right:4px;top:4px");
     expect(styleSource).toContain(".brand-wordmark{position:relative;display:flex!important;flex-direction:row!important;align-items:center;gap:9px;min-width:0;padding:8px 10px 8px 5px");
+    expect(styleSource).toContain(".brand-wordmark{box-sizing:border-box;padding:10px;}");
+    expect(styleSource).toContain(".brand-name em{font-size:10px;letter-spacing:.3em;}");
+    expect(styleSource).toContain("@media(max-width:700px){.brand-wordmark{padding:8px}.brand-name em{font-size:8px;letter-spacing:.23em}}");
   });
 
   it("omits only the Dashboard security-posture marker", () => {

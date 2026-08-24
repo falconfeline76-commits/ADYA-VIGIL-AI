@@ -152,4 +152,7 @@
 - [x] Validate the expanded visual at desktop and mobile sizes, preserve all other content and behavior, and save a new checkpoint: 21a88482.
 - [x] Transform the ADYA VIGIL AI wordmark into an exceptional cyber-technology typography treatment.
 - [x] Apply balanced wordmark padding, spacing, and responsive sizing without changing the falcon mark or sidebar layout.
-- [ ] Validate wordmark clarity and alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint.
+- [x] Validate wordmark clarity and alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint: f54acb50.
+- [x] Set equal four-side padding around the ADYA VIGIL AI wordmark box.
+- [x] Increase the VIGIL AI wordmark line slightly while preserving clear spacing and responsive readability.
+- [ ] Validate the corrected box alignment at desktop/mobile sizes, preserve all other content, and save a new checkpoint.
