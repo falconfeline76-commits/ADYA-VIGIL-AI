@@ -146,4 +146,7 @@
 - [x] Validate the heading visual at desktop and mobile sizes, then save a new checkpoint: d324dba1.
 - [x] Replace only the current visual beside “Your signal desk.” with an innovative animated cyber-security design.
 - [x] Keep the replacement contained in its allocated panel with balanced padding, responsive sizing, and no overlap with the heading, New scan action, or dashboard card.
-- [ ] Preserve all other content and behavior, validate desktop/mobile rendering, and save a new checkpoint.
+- [x] Preserve all other content and behavior, validate desktop/mobile rendering, and save a new checkpoint: ea9498a9.
+- [x] Expand the cybernetic perimeter visual leftward so it uses more of the open heading-area space.
+- [x] Rebalance internal and surrounding padding so the expanded visual remains organized, contained, and non-overlapping.
+- [ ] Validate the expanded visual at desktop and mobile sizes, preserve all other content and behavior, and save a new checkpoint.

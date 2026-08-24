@@ -193,3 +193,17 @@
 @media(max-width:900px){.dashboard-signal-visual{min-height:192px}.cyber-perimeter{inset:39px 27px 36px}}
 @media(max-width:700px){.dashboard-signal-visual{min-height:188px;padding:15px 16px 13px}.signal-visual-footer{left:16px;right:16px}.perimeter-metrics{left:16px;right:16px;bottom:27px}.cyber-perimeter{inset:38px 28px 36px}.cyber-radar-sweep{width:134px;height:134px}}
 @media(prefers-reduced-motion:reduce){.cyber-radar-sweep,.cyber-perimeter:before,.ring-one,.ring-two,.ring-three,.perimeter-core,.perimeter-node,.core-circuit{animation:none!important}.cyber-radar-sweep{transform:translate(-50%,-50%);opacity:.34}.cyber-perimeter:before{opacity:.82}.perimeter-core{filter:none}}
+
+/* Expanded heading visual: use the open left-side heading area without changing other Dashboard regions. */
+.dashboard-page-header{grid-template-columns:minmax(0,1fr) minmax(330px,414px);gap:clamp(28px,4.5vw,64px)}
+.dashboard-heading-side{width:100%;max-width:414px;padding-left:0}
+.dashboard-signal-visual{width:100%;min-height:214px;padding:18px 21px 15px;box-sizing:border-box}
+.dashboard-signal-visual:before{inset:37px 43px 31px}
+.signal-visual-footer{left:21px;right:21px;bottom:13px}
+.cyber-perimeter{inset:34px 45px 39px}
+.ring-one{width:130px;height:53px}.ring-two{width:108px;height:46px}.ring-three{width:68px;height:68px}
+.perimeter-core{width:64px;height:64px}.perimeter-core strong{font-size:27px}.perimeter-core small{bottom:12px}
+.perimeter-crosshair{width:136px}.perimeter-crosshair:after{height:58px;top:-29px}
+.perimeter-metrics{left:21px;right:21px;bottom:31px;max-width:184px}.perimeter-metrics b{font-size:11px}.perimeter-metrics small{font-size:5px}
+@media(max-width:1100px){.dashboard-page-header{grid-template-columns:minmax(0,1fr) minmax(300px,370px);gap:32px}.dashboard-heading-side{max-width:370px}.dashboard-signal-visual{min-height:208px}.cyber-perimeter{inset:34px 38px 39px}.ring-one{width:116px;height:48px}.ring-two{width:98px;height:42px}.ring-three{width:62px;height:62px}}
+@media(max-width:700px){.dashboard-page-header{gap:22px}.dashboard-heading-side{max-width:none}.dashboard-signal-visual{min-height:188px;padding:15px 16px 13px}.dashboard-signal-visual:before{inset:35px 38px 29px}.signal-visual-footer{left:16px;right:16px;bottom:12px}.cyber-perimeter{inset:38px 28px 36px}.ring-one{width:102px;height:42px}.ring-two{width:84px;height:36px}.ring-three{width:57px;height:57px}.perimeter-core{width:56px;height:56px}.perimeter-core strong{font-size:24px}.perimeter-crosshair{width:110px}.perimeter-crosshair:after{height:52px;top:-26px}.perimeter-metrics{left:16px;right:16px;bottom:27px;max-width:145px}.perimeter-metrics b{font-size:10px}}

@@ -22,6 +22,9 @@ describe("dashboard cyber-security perimeter visual", () => {
   it("keeps the replacement contained, padded, animated, and responsive", () => {
     expect(styleSource).toContain(".dashboard-page-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(248px,292px)");
     expect(styleSource).toContain(".dashboard-signal-visual{min-height:198px;padding:16px 17px 14px");
+    expect(styleSource).toContain(".dashboard-page-header{grid-template-columns:minmax(0,1fr) minmax(330px,414px);gap:clamp(28px,4.5vw,64px)}");
+    expect(styleSource).toContain(".dashboard-signal-visual{width:100%;min-height:214px;padding:18px 21px 15px;box-sizing:border-box}");
+    expect(styleSource).toContain(".dashboard-heading-side{width:100%;max-width:414px;padding-left:0}");
     expect(styleSource).toContain(".cyber-perimeter{position:absolute;inset:39px 31px 36px");
     expect(styleSource).toContain("@keyframes perimeterRadar");
     expect(styleSource).toContain("@keyframes perimeterCorePulse");
