@@ -25,6 +25,13 @@ describe("sidebar navigation refinements", () => {
     expect(styleSource).toContain(".brand-fire-falcon{padding:0!important;place-items:center!important");
   });
 
+  it("omits only the Dashboard security-posture marker", () => {
+    expect(clientSource).toContain('showMarker = true');
+    expect(clientSource).toContain('class="signal-line"></span>\' : ""');
+    expect(clientSource).toContain('DASHBOARD / SECURITY POSTURE", "Your signal desk."');
+    expect(clientSource).toContain('class="button-icon">${QR_SCAN_ICON}</span> New scan <span>↗</span></a>`, false)');
+  });
+
   it("uses calendar and QR scanning SVG icons only for Dashboard and Scan center", () => {
     expect(clientSource).toContain("const CALENDAR_ICON = `<svg");
     expect(clientSource).toContain("const QR_SCAN_ICON = `<svg");

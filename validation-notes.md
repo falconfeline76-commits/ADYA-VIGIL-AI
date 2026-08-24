@@ -99,3 +99,5 @@ Sidebar telemetry replacement review: desktop and 390px Dashboard captures show 
 Falcon logo spacing review: desktop and 390px captures confirm the static falcon mark is centered inside its box with intentional right-side breathing room, balanced padding, and no overlap with the ADYA / VIGIL AI wordmark or mobile navigation.
 
 Exact logo-centering review: desktop and 390px Dashboard captures confirm the falcon mark is centered inside the existing sidebar box with equalized internal spacing, no overlap with ADYA / VIGIL AI, and no horizontal overflow or unrelated layout change.
+
+Dashboard heading marker review: desktop and 390px captures confirm the left signal-line/hyphen marker is removed only from “DASHBOARD / SECURITY POSTURE.” The heading remains readable, its spacing is clean, and the surrounding Dashboard, sidebar, shield, telemetry, and New scan areas remain unchanged.

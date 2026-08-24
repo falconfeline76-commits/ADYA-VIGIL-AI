@@ -112,5 +112,7 @@
 - [x] Validate the logo alignment at desktop/mobile sizes and save a new checkpoint: 644cd361.
 - [x] Save a checkpoint for the falcon-logo box-padding/alignment refinement and record its version ID: 644cd361.
 - [x] After checkpointing, mark the logo-alignment validation item complete without removing the original checkpoint requirement.
-- [ ] Center the falcon logo precisely inside its existing sidebar box.
-- [ ] Validate the centered logo at desktop/mobile sizes and save a new checkpoint.
+- [x] Center the falcon logo precisely inside its existing sidebar box.
+- [x] Validate the centered logo at desktop/mobile sizes and save a new checkpoint: 162fb743.
+- [ ] Remove the marker to the left of “DASHBOARD / SECURITY POSTURE”.
+- [ ] Validate that only this heading marker changed and save a new checkpoint.
