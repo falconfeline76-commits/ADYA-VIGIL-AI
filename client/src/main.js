@@ -9,8 +9,8 @@ const REPORT_URL = "https://cybercrime.gov.in/Webform/Accept.aspx";
 function navigateToReport() { try { window.top.location.assign(REPORT_URL); } catch { window.location.assign(REPORT_URL); } }
 const CALENDAR_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3"></rect><path d="M7 3v4M17 3v4M3 9.5h18M7 13h.01M11 13h.01M15 13h.01M7 17h.01M11 17h.01M15 17h.01"></path></svg>`;
 const QR_SCAN_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"></path><path d="M7 7h4v4H7zM13 7h4v4h-4zM7 13h4v4H7zM14 14h2v2h-2zM17 17h2v2h-2zM14 18h1"></path></svg>`;
-const REAL_FIRE_FALCON_ASSET = "/manus-storage/adya-realistic-fire-falcon_2b07021e.png";
-const FIRE_FALCON_EMBLEM = `<img class="real-fire-falcon-asset" src="${REAL_FIRE_FALCON_ASSET}" alt="Realistic fire falcon inside a cyber shield" />`;
+const CYBER_FALCON_ASSET = "/manus-storage/adya-cybernetic-falcon-cutout_1a566b1c.png";
+const FIRE_FALCON_EMBLEM = `<img class="cyber-falcon-asset" src="${CYBER_FALCON_ASSET}" alt="Technological cybernetic falcon with glowing circuit patterns inside a cyber shield" />`;
 const demoPreview = new URLSearchParams(window.location.search).get("demo") === "1";
 const state = { type: "url", value: "", label: "", result: null, fileId: null, uploading: false, demo: demoPreview, demoSamplesOpen: demoPreview, pipeline: ["Waiting for input", "Structural checks", "Evidence weighting", "Guidance generated"], pipelineStep: 0, stats: null, scans: [] };
 const navItems = [{ href: "/", label: "Dashboard", icon: CALENDAR_ICON }, { href: "/how-it-works", label: "How it works", icon: "◇" }, { href: "/scan", label: "Scan center", icon: QR_SCAN_ICON }, { href: "/history", label: "Scan history", icon: "◷" }, { href: "/about", label: "About model", icon: "ⓘ" }];

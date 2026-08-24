@@ -114,5 +114,13 @@
 - [x] After checkpointing, mark the logo-alignment validation item complete without removing the original checkpoint requirement.
 - [x] Center the falcon logo precisely inside its existing sidebar box.
 - [x] Validate the centered logo at desktop/mobile sizes and save a new checkpoint: 162fb743.
-- [ ] Remove the marker to the left of “DASHBOARD / SECURITY POSTURE”.
-- [ ] Validate that only this heading marker changed and save a new checkpoint.
+- [x] Remove the marker to the left of “DASHBOARD / SECURITY POSTURE”.
+- [x] Validate that only this heading marker changed and save a new checkpoint: 00d3bc07.
+- [x] Transform the current falcon image into a technological cyber-falcon visual with engineered armor and circuitry details.
+- [x] Integrate the technological falcon into the existing logo and Dashboard shield without changing unrelated content or behavior.
+- [ ] Validate the technological falcon at desktop/mobile sizes, update regression coverage, and save a new checkpoint.
+- [x] Transform the existing falcon image into a technological cybernetic bird with glowing circuit patterns.
+- [x] Integrate the transformed falcon while preserving the current shield composition and unrelated app behavior.
+- [ ] Validate the circuit-pattern visual at desktop/mobile sizes, update regression coverage, and save a new checkpoint.
+- [ ] Save a checkpoint for the transparent cybernetic falcon integration and record its version ID.
+- [ ] After checkpointing, mark the two cybernetic-falcon validation entries complete without weakening their acceptance criteria.
